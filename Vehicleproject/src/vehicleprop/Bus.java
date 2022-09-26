@@ -1,21 +1,21 @@
-package vehicle;
+package vehicleprop;
 
-public class Car extends VehicleProp{
+public class Bus extends vehicle_prop{
 
 	@Override
 	int speed() {
 		// TODO Auto-generated method stub
-		return 70;
+		return 60;
 	}
 
 	@Override
 	int mileage() {
 		// TODO Auto-generated method stub
-		return 300;
+		return 400;
 	}
 
 	@Override
-	String Destination() {
+	String destination() {
 		// TODO Auto-generated method stub
 		return null;
 	}
