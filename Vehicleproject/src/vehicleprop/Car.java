@@ -2,6 +2,8 @@ package vehicleprop;
 
 public class Car extends Vehicle_prop{
 
+	int model_no=9999;
+	
 	@Override
 	int speed() {
 		// TODO Auto-generated method stub
