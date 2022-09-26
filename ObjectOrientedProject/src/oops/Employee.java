@@ -1,5 +1,5 @@
 package oops;
 
-public class Employee {
+public class Employee extends Employer {
 
 }
