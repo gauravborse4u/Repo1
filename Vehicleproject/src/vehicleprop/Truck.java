@@ -1,6 +1,6 @@
 package vehicleprop;
 
-public class Truck extends vehicle_prop {
+public class Truck extends Vehicle_prop {
 
 	@Override
 	int speed() {
@@ -19,7 +19,5 @@ public class Truck extends vehicle_prop {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	
-
+		
 }

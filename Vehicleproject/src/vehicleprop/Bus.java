@@ -1,6 +1,6 @@
 package vehicleprop;
 
-public class Bus extends vehicle_prop{
+public class Bus extends Vehicle_prop{
 
 	@Override
 	int speed() {

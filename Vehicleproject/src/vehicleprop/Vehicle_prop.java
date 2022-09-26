@@ -1,6 +1,6 @@
 package vehicleprop;
 
-public abstract class vehicle_prop {
+public abstract class Vehicle_prop {
 
 	abstract int speed();
 	abstract int mileage();
