@@ -2,6 +2,12 @@ package oops;
 
 public class Car implements Destination, Prop{
 
+	String desti;
+	
+	Car(){
+		desti="Pune";
+	}
+	
 	@Override
 	public void speed() {
 		// TODO Auto-generated method stub
@@ -15,9 +21,24 @@ public class Car implements Destination, Prop{
 	}
 
 	@Override
-	public void dest() {
+	public void dest(String d) {
 		// TODO Auto-generated method stub
-		System.out.println("Destination is XYZ");
+		System.out.println("Your Destination is :" + d);
+	}
+	
+	public void mydest() {
+		System.out.print("Car destination is :" + desti);
+	}
+	
+	public static void main(String args[]) {
+		
+		Car c1=new Car();
+		
+		c1.speed();
+		c1.Mileage();
+		c1.dest("Nashik");
+		c1.mydest();
+		
 	}
 
 }

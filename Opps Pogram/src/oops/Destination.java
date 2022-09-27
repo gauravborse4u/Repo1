@@ -2,6 +2,6 @@ package oops;
 
 public interface Destination {
 
-	void dest();
+	void dest(String desti);
 
 }
