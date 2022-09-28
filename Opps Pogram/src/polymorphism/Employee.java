@@ -5,9 +5,8 @@ public class Employee extends Finance  {
 	public int salary=20000;
 	
 
-	@Override
 	void salary() {
-		// TODO Auto-generated method stub
+		
 		System.out.println("Your Salary is :" + salary);
 	}
 

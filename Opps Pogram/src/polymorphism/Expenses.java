@@ -2,7 +2,7 @@ package polymorphism;
 
 public class Expenses extends Employee {
 
-	int exp=100;
+	int exp=10000;
 	
 	
 	void salary() {
@@ -13,9 +13,9 @@ public class Expenses extends Employee {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Expenses e1=new Expenses();
+		Employee ex1=new Expenses();
 		
-		e1.salary();
+		ex1.salary();
 	}
 
 }
