@@ -6,6 +6,9 @@ interface I1{
 	default void add(int a, int b) {
 		System.out.println("Addition is :" + (a+b));
 	}
+	static void show() {
+		System.out.println("This is an static method");
+	}
 }
 public class Test implements I1{
 
@@ -19,8 +22,8 @@ public class Test implements I1{
 		Test t=new Test();
 		
 		t.name();
-		t.add(10,40);
 		t.add(70,40);
+		I1.show();
 	}
 
 }
