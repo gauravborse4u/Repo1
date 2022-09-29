@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Tryblock {
 
     public static void main(String args[]) {
-    	int a, b;
-    	
+    	    	
     	int c;
     	
     	try(Scanner sc=new Scanner(System.in);Scanner sc1=new Scanner(System.in)){
